@@ -1,0 +1,30 @@
+<div class="pt-100 min-vh-50 d-flex flex-column router-outlet">
+  <div class="container flex-grow-1 py-5 my-5">
+      <div class="mb-4">
+        <app-title [title]="title" [titleColor]="contactTitleColor" />
+        <form class="w-50 p-3 mx-auto mt-5"
+        >
+          <label for="userName" class="position-relative top-0 " [class.labelTop]="!userName.length">userName : </label>
+          <input id="userName" type="text" placeholder="userName" name="userName" [(ngModel)]="userName"
+            class="form-control border-0 border-bottom py-3 position-relative"
+          /><label for="userAge" class="position-relative top-0" [class.labelTop]="!userAge.length">userAge : </label>
+          <input id="userAge" type="text" placeholder="userAge" name="userName" [(ngModel)]="userAge"
+          class="form-control border-0 border-bottom py-3 position-relative"/>
+          <label for="userEmail" class="position-relative top-0" [class.labelTop]="!userEmail.length">userEmail : </label
+          ><input id="userEmail" type="text" placeholder="userEmail" name="userName" [(ngModel)]="userEmail"
+             class="form-control border-0 border-bottom py-3 position-relative"
+          /><label for="userPassword" [class.labelTop]="!userPassword.length"
+            class="position-relative top-0" [class.labelTop]="!userPassword.length" >userPassword : </label
+          ><input id="userPassword" type="text" placeholder="userPassword" name="userName" [(ngModel)]="userPassword"
+            class="form-control border-0 border-bottom py-3 position-relative"
+          /><button
+
+            class="btn mt-4 text-white"
+            style="background-color: #1abc9c"
+          >
+            send Message
+          </button>
+        </form>
+    </div>
+  </div>
+</div>

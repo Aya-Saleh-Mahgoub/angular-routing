@@ -1,0 +1,10 @@
+body{
+  scroll-behavior: smooth;
+}
+.pt-100{
+  padding-top:100px;
+}
+/* .router-outlet{
+  background-color: var(--secondary-color);
+} */
+

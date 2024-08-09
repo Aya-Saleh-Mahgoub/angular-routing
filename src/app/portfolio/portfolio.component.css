@@ -1,0 +1,24 @@
+.layer{
+  background-color: rgba(26, 188, 156, 0.9);
+  opacity: 0;
+  cursor: pointer;
+  transition: .6s opacity;
+}
+
+.layer:hover {
+  opacity: 1;
+}
+.modal{
+z-index:999;
+background: rgb(0 0 0 / 8%);
+top: 40px !important;
+}
+img{
+  width:600px;
+}
+.close{
+  position: absolute;
+  top: 97px;
+  right: 346px;
+  cursor: pointer;
+}

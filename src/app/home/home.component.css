@@ -1,0 +1,6 @@
+img{
+  width:250px;
+}
+.router-outlet{
+  background-color: var(--secondary-color);
+}

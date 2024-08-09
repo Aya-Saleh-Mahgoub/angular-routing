@@ -1,0 +1,7 @@
+nav{
+  transition:1s padding;
+}
+a.active {
+  background: var(--secondary-color) !important;
+  border-radius: 11px;
+}

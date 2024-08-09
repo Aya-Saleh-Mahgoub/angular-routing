@@ -1,0 +1,14 @@
+/* .contact{
+  background-color: white;
+} */
+input.form-control:focus{
+  box-shadow: none;
+}
+label {
+  color: var(--secondary-color);
+  margin-bottom:7px;
+  transition: .5s top;
+}
+.labelTop{
+  top:40px !important;
+}
